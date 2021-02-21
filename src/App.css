@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+ 
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3;
+  background: rgb(245, 243, 243);
+}
+img{
+  width: 100%;
+}
+
+.grid-item-footer i{
+  padding: .7rem .3rem;
+  font-size: .7rem;
+}
+.grid-item-footer span{
+  font-size: .8rem;
+  font-weight: bold;
+}
+ a{
+   text-decoration: none;
+   font-weight: bold;
+   color:#3b5998;
+   font-size: 1.2rem;
+   padding: .2rem 0;
+ }
+nav{
+  padding: 1.4rem;
+  background:white;
+  text-align: center;
+}
+.wrapper{
+  width: 100%;
+  margin: 2rem auto;
+}
+.gallery{
+   width: 60%;
+   background: white;
+   padding: 5%;
+   margin:auto;
+   
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap:1rem;
+  animation: slidein 4s forwards ease-in-out;
+
+}
+ .grid-item{
+  max-width: 300px;
+  border-radius: 10px;
+  border:1px solid rgb(187, 184, 184);
+  overflow-x: hidden;
+  cursor: pointer;
+  transition: all .8s ease-in-out;
+  animation: infinite-spinning 4s forwards ease-in-out;
+  
+}
+.shadow{
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.grid-item:nth-of-type(even) .img{
+  position: relative;
+  overflow: hidden;
+
+}
+
+.grid-item:nth-of-type(even) .img::before{
+  content:"";
+  position: absolute;
+  width: 50%;
+  height: 97%;
+  background: rgba(0,0,0,.6);
+  top:0;
+  right: 0;
+  
+}
+.grid-item:nth-of-type(even) .img .center{
+  position: absolute;
+  top:30%;
+  right:12%;
+   color:white;
+  z-index: 100;
+  text-align: center;
+}
+.grid-item:nth-of-type(even) .img .center h3,h5{
+ padding-bottom: .6rem;
+}
+ .grid-item-footer{
+   padding: 1rem .7rem;
+   display: flex;
+   height: 100px;  
+   justify-content: space-between;
+   
+}
+ .grid-item-footer img{
+  width: 15%;
+  height: 35%;
+  }
+
+  .animate__heartBeat{
+    --animate-duration: 3s;
+  }
+
+
+  @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity:1;
+    }
+  }
+
+
+
+  @keyframes infinite-spinning {
+    0% {
+      transform: rotate(0deg);
+    }
+    40% {
+      transform: rotate(180deg);
+    }
+     
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+
+
+@media (max-width:1500px){
+  .grid{
+    grid-template-columns: repeat(3,1fr);
+     
+  }
+}
+@media (max-width:1200px){
+  .grid{
+    grid-template-columns: repeat(2,1fr);
+     
+  }
+}
+@media (max-width:730px){
+  .grid{
+    grid-template-columns:1fr;
+  }
+     
+  .grid-item{
+    max-width: 900px;
+  }
+}
+ 
+ 
