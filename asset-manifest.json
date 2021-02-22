@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/coding/static/css/main.db48d610.chunk.css",
+    "main.js": "/coding/static/js/main.79e3588b.chunk.js",
+    "main.js.map": "/coding/static/js/main.79e3588b.chunk.js.map",
+    "runtime-main.js": "/coding/static/js/runtime-main.bede05dd.js",
+    "runtime-main.js.map": "/coding/static/js/runtime-main.bede05dd.js.map",
+    "static/js/2.cc63fdd5.chunk.js": "/coding/static/js/2.cc63fdd5.chunk.js",
+    "static/js/2.cc63fdd5.chunk.js.map": "/coding/static/js/2.cc63fdd5.chunk.js.map",
+    "index.html": "/coding/index.html",
+    "precache-manifest.af5f2fa7c50726114c720d853ec985a5.js": "/coding/precache-manifest.af5f2fa7c50726114c720d853ec985a5.js",
+    "service-worker.js": "/coding/service-worker.js",
+    "static/css/main.db48d610.chunk.css.map": "/coding/static/css/main.db48d610.chunk.css.map",
+    "static/js/2.cc63fdd5.chunk.js.LICENSE.txt": "/coding/static/js/2.cc63fdd5.chunk.js.LICENSE.txt",
+    "static/media/20-minutes-to-toned-thumb.jpg": "/coding/static/media/20-minutes-to-toned-thumb.1542c118.jpg",
+    "static/media/charles-race-thumb.jpg": "/coding/static/media/charles-race-thumb.00390176.jpg",
+    "static/media/full-body-hiit-thumb.jpg": "/coding/static/media/full-body-hiit-thumb.578dacbc.jpg",
+    "static/media/kafue-river-thumb.jpg": "/coding/static/media/kafue-river-thumb.a55f946a.jpg",
+    "static/media/lake-inniscarra-thumb.jpg": "/coding/static/media/lake-inniscarra-thumb.e0a7c906.jpg",
+    "static/media/performance-series-thumb.jpg": "/coding/static/media/performance-series-thumb.3e82c423.jpg",
+    "static/media/shred-and-burn-thumb.jpg": "/coding/static/media/shred-and-burn-thumb.04edd542.jpg",
+    "static/media/slow-pulls-thumb.jpg": "/coding/static/media/slow-pulls-thumb.7cae9ed1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bede05dd.js",
+    "static/js/2.cc63fdd5.chunk.js",
+    "static/css/main.db48d610.chunk.css",
+    "static/js/main.79e3588b.chunk.js"
+  ]
+}
